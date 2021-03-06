@@ -4,19 +4,19 @@ from django.core.mail import send_mail
 
 # Create your views here.
 def index(request):
-    return render(request, "biolog1/index.html")
+    return render(request, "index.html")
 
 
 def about(request):
-    return render(request, "biolog1/about.html")
+    return render(request, "about.html")
 
 
 def blog(request):
-    return render(request, "biolog1/blog.html")
+    return render(request, "blog.html")
 
 
 def contact(request):
-    return render(request, "biolog1/contact.html")
+    return render(request, "contact.html")
 
 
 def send(request):
