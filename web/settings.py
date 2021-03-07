@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'f3m1f&_*phj^bo%t1iirbrwa!q#_9(ik(4jh89(!ojd+=t%5sd'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['biolog1.herokuapp.com']
 
