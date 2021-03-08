@@ -32,17 +32,14 @@ def send(request):
             ['chalukya.reddy.7@gmail.com'],
             fail_silently=False,
         )
-        
-            if request.method == 'POST':
-            send_mail(
-                'WELCOME TO BIOLOG',
-                'THANK YOU FOR CONTACTING US',
-                Email,
-                [Email],
-                fail_silently=False,
+   
+        send_mail(
+            'WELCOME TO BIOLOG',
+            'THANK YOU FOR CONTACTING US',
+             Email,
+             [Email],
+             fail_silently=True,
             )
-            return render(request, 'index.html', {'Name': Name})
-            else:
         return render(request, 'index.html', {})
     else:
         return render(request, 'index.html', {})
