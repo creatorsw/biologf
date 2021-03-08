@@ -33,13 +33,7 @@ def send(request):
             fail_silently=False,
         )
    
-        send_mail(
-            'WELCOME TO BIOLOG',
-            'THANK YOU FOR CONTACTING US',
-             Email,
-             [Email],
-             fail_silently=True,
-            )
+
         return render(request, 'index.html', {})
     else:
         return render(request, 'index.html', {})
