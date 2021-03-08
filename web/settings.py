@@ -134,8 +134,8 @@ STATICFILES_DIRS = (
 )
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST_USER = 'chalukya.reddy.9@gmail.com'
-EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'apikey'
+EMAIL_HOST = 'smtp.sendgrid.net'
 EMAIL_PORT = '587'
 EMAIL_USE_TLS = True
-EMAIL_HOST_PASSWORD = 'prasadvckjr.9966'
+EMAIL_HOST_PASSWORD = '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'
