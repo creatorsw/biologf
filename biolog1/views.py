@@ -37,7 +37,7 @@ def send(request):
             'WELCOME TO BIOLOG',
             'THANK YOU FOR CONTACTING US',
             'chalukya.reddy.9@gmail.com',
-            ['chalukya.reddy.7@gmail.com'],
+            [Email],
             fail_silently=False,
         )
    
