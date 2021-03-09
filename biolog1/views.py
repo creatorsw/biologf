@@ -27,7 +27,8 @@ def send(request):
 
         send_mail(
             Name,
-            text+Email,
+            text+''
+            +Email,
             'chalukya.reddy.9@gmail.com',
             ['chalukya.reddy.7@gmail.com'],
             fail_silently=False,
